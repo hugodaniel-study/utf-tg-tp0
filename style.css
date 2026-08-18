@@ -44,6 +44,7 @@ main {
 }
 
 .sobre-mim h2 {
+    font-size: 1.25rem;
     margin-bottom: 1rem;
 }
 
@@ -96,7 +97,7 @@ main img {
   height: 240px;
   object-fit: cover;
   border-radius: 16px;
-  border: 3px solid #C9A15A;
+  border: 3px solid #be9856;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   margin: 0 0.75rem 2rem;
   transition: transform 0.3s ease;
@@ -107,7 +108,7 @@ main img:hover {
 }
 
 button {
-  background-color: #d1a353;
+  background-color: #c99c4e;
   color: #1C1C1E;
   border: none;
   padding: 0.8rem 1.8rem;
@@ -120,7 +121,7 @@ button {
 }
 
 button:hover {
-  background-color: #b8904a;
+  background-color: #c4994f;
   transform: translateY(-2px);
 }
 
@@ -136,7 +137,7 @@ button:hover {
 
 @keyframes cair {
     to {
-        transform: translateY(1400px) rotate(360deg);
+        transform: translateY(1700px) rotate(360deg);
         opacity: 0.7;
     }
 }
